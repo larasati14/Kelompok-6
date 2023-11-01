@@ -43,7 +43,7 @@ Extra_cheese = input ("Apakah anda ingin extra cheese? Y/N")
 # Code perintah untuk menjalankan pesanan secara otomatis
 if Pizza in range (1, 4):
 
-    # Harga Ukuran
+  # Harga Ukuran
     if Ukuran == "Personal"
         harga_ukuran = 43636
     elif Ukuran == "Regular"
@@ -51,7 +51,7 @@ if Pizza in range (1, 4):
     else:
         harga_ukuran = 132727
 
-    # Harga Crust 
+  # Harga Crust 
     if Crust == "Pan":
             harga_crust = 0
     elif Crust == "StuffedCrust cheese":
@@ -61,7 +61,7 @@ if Pizza in range (1, 4):
     else: 
         harga_crust = 136371
 
-    # Harga Extra Cheese
+  # Harga Extra Cheese
     if Extra_cheese == "Y":
         harga_extra_cheese = 13000
     else:
