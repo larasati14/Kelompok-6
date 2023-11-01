@@ -69,3 +69,38 @@ if Pizza in range (1, 4):
 
 else:
     print("salah")
+
+  # Total harga dari pizza yang pelanggan pilih
+  total_harga = harga_ukuran + harga_crust + harga_extra_cheese
+  print(f"Terima kasih telah mempercayakan pesanan pizza anda pada kami. Ini total harga yang     perlu anda bayarkan : Rp {total_harga},00)
+
+  # Metode pembayaran yang di pilih oleh pembeli
+  print("""
+  selanjutnya silahkan pilih metode pembayaran yang anda inginkan :
+  [1] Cash
+  [2] Transfer
+  """)
+  metode = input( "Pilih kode metode pembayaran : ").lower()
+
+  if metode == "2":
+       print("""
+       Pilih Bank Tujuan 
+       [1] BCA
+       [2] BRI
+       [3] BNI
+       [4] BANK MEGA
+       [5] BTN
+       [6] CIMBNIAGA
+       [7] MANDIRI
+       [8] BANK JATIM
+       """)
+       Bank = int(input("Masukkan Pilihan Bank : ))
+
+  if Bank in range (1, 8):
+       Renk = int(input("Masukkan Rekening : "))
+       Nominal = int(input("Masukkan Nominal Transfer : "))
+       Pin = int(input("Masukkan Pin : ")
+       Print("TRANSAKSI BERHASIL TERIMA KASIH TELAH BERBELANJA")
+
+  else:
+        print("Silahkan Berikan Uang")
