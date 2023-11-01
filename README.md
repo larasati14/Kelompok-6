@@ -37,5 +37,35 @@ Crust = (input("Crust pizza yang anda pilih "))
 print("""Apakah anda ingin extra cheese atau tidak?
       [A] Dengan Extra Cheese
       [B] Tanpa Extra Cheese
+      """)
 Extra_cheese = input ("Apakah anda ingin extra cheese? Y/N")
 
+# Code perintah untuk menjalankan pesanan secara otomatis
+if Pizza in range (1, 4):
+
+    # Harga Ukuran
+    if Ukuran == "Personal"
+        harga_ukuran = 43636
+    elif Ukuran == "Regular"
+        harga_ukuran = 100909
+    else:
+        harga_ukuran = 132727
+
+    # Harga Crust 
+    if Crust == "Pan":
+            harga_crust = 0
+    elif Crust == "StuffedCrust cheese":
+            harga_crust = 11819
+    elif Crust == "StuffedCrust Sausage":
+            harga_crust = 9091
+    else: 
+        harga_crust = 136371
+
+    # Harga Extra Cheese
+    if Extra_cheese == "Y":
+        harga_extra_cheese = 13000
+    else:
+        harga_extra_cheese = 0
+
+else:
+    print("salah")
