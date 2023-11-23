@@ -53,7 +53,7 @@ def jump():
     turn_left()
     move()
 
-while not at at_goal():
+while not at_goal():
  if wall_in_front():
     jump()
  elif not at_goal():
