@@ -35,3 +35,33 @@ def lompat():
 
 while not at_goal():
     lompat()
+
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    move()
+
+while noat at_goal():
+ if wall_in_front():
+    jump()
+ elif not at_goal():
+    move()
+
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left() 
